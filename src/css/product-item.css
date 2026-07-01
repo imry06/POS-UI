@@ -3,9 +3,21 @@
     padding: 10px;
     margin: 10px;
     width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
+.product-item:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.258);
+}
 .product-item img{
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
+}
+.product-item p{
+    font-size: 14px;
+    color: #555;
+}
+.product-price{
+    text-align: center;
 }

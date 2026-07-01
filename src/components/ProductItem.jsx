@@ -4,8 +4,10 @@ const ProductItem = ({productName, productImage, productPrice}) => {
   return (
     <div className="product-item">
         <img src={productImage} alt={productName} />
-        <h3>{productName}</h3>
-        <p>₹ {productPrice.toFixed(2)}</p>
+        {/* <hr /> */}
+        <p>{productName}</p>
+        <hr />
+        <p className="product-price">₹ {productPrice.toFixed(2)}</p>
     </div>
   )
 }
